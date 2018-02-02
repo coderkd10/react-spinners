@@ -28,7 +28,7 @@
     "activity"
   ],
   "scripts": {
-    "prepublish": "babel --plugins transform-es2015-modules-umd src --ignore __tests__ --out-dir ./dist",
+    "prepare": "babel --plugins transform-es2015-modules-umd src --ignore __tests__ --out-dir ./dist",
     "lint": "eslint ./src  --ext .js,.jsx",
     "lintfix": "eslint ./src  --ext .js,.jsx --fix",
     "test": "npm run lint",
